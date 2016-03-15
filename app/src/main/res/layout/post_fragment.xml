@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            app:tabTextColor="@color/colorAccent"
+            app:tabBackground="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/no_file"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eeeeee"
+            android:hint="@string/post_hint"
+            android:padding="10dp"
+            android:inputType="textMultiLine"
+            android:gravity="top|left"
+            android:minLines="17"/>
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/postBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/post"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:background="@color/colorAccent"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,5 +1,19 @@
 <resources>
-    <string name="app_name">RutgersAnonymous</string>
-    <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="app_name">Rutgers Anonymous</string>
+
+    <string name="post_hint">What\'s on your mind?</string>
+    <string name="no_file">No File Chosen</string>
+    <string name="post">Post</string>
+
+    <string name="baseURL">http://rutgersanonymous.com/</string>
+    <string name="sqlExeURL">api/executeSQL.php</string>
+    <string name="uploadURL">api/uploadFile.php</string>
+    <string name="apiKey">9Tv5L7H2JGeXrtegju35MBbJ</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot">Forgot</string>
+    <string name="signup">Sign Up</string>
+
 </resources>
