@@ -5,15 +5,15 @@
     <string name="no_file">No File Chosen</string>
     <string name="post">Post</string>
 
-    <string name="baseURL">http://rutgersanonymous.com/</string>
-    <string name="sqlExeURL">api/executeSQL.php</string>
-    <string name="uploadURL">api/uploadFile.php</string>
-    <string name="apiKey">9Tv5L7H2JGeXrtegju35MBbJ</string>
+    <string name="baseURL">http://rutgersanonymous.com</string>
 
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="forgot">Forgot</string>
     <string name="signup">Sign Up</string>
+
+    <string name="parseServerURL">"http://104.236.209.241:1337/parse/"</string>
+    <string name="parseAppId">EjTXBWMOqLyb1jbjPjH14ShUu1sZmQsxvRHd4FJV</string>
 
 </resources>
